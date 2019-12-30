@@ -1,0 +1,20 @@
+.Title{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#homeBtn{
+    color: rgb(182, 10, 62);
+    font-weight: 700;
+    font-size: 40px;
+    border:none;
+    background-color: transparent;
+    text-decoration: underline;
+}
+#homeBtn:focus{
+    outline: none !important;
+}

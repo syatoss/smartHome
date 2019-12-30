@@ -1,0 +1,43 @@
+.deviceActive{
+    height: 7vh;
+    width: 10vw;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+    /* box-shadow: 1px 1px 3px 1px rgb(182, 10, 62) ; */
+}
+.deviceActive:focus{
+    outline: none !important;
+}
+@media screen and (max-width:1000px){
+    .deviceActive{
+        width:15vw;
+    }
+}
+@media screen and (max-width:650px){
+    .deviceActive{
+        width:17vw;
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:350px){
+    .deviceActive{
+        width:20vw;
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-height:400px){
+    .deviceActive{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-height:290px){
+    .deviceActive{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-height:205px){
+    .deviceActive{
+        font-size: 0.4rem;
+    }
+}

@@ -1,0 +1,22 @@
+.HomePage{
+    /* display: grid;
+    grid-template-rows: 1fr 1fr; */
+    border: none;
+    background-color: transparent;
+    scrollbar-width: 0px;
+}
+.roomsOnDisplay{
+    scrollbar-width: 0px;
+    overflow-y: scroll;
+
+    height: 40vh;
+    width: 100vw;
+
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+.plsBtn{
+    height: 40vh;
+    width: 100vw;
+}

@@ -1,0 +1,61 @@
+.SelecDevice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.selectDeviceBtn{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px grey solid;
+    color: gray;
+    font-size: 1.6rem;
+    height: 13vh;
+    width: 13vw;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.selectDeviceBtn:hover{
+    border: 2px solid rgb(182, 10, 62);
+    color: rgb(182, 10, 62);
+    transform: scale(1.1,1.1);
+}
+.selectDevice{
+    font-size: 1.4rem;
+    height: 10vh;
+    width:14vw;
+    background-color: transparent;
+    border-radius: 7px;
+    padding-left: 1vw;
+}
+.selectDevice:focus{
+    outline: none !important;
+}
+.selectDeviceBtn:focus{
+    outline: none !important;
+}
+option{
+    background-color: rgba(64,224,208,0.2);
+}
+@media screen and (max-width:700px){
+    .selectDeviceBtn{
+        font-size: 0.9rem;
+        width:20vw;
+    }
+    .selectDevice{
+        font-size: 0.8rem;
+        width:20vw;
+    }
+}
+@media screen and (max-width:1050px){
+    .selectDevice{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:560px){
+    .selectDevice{
+        font-size: 0.6rem;
+        height: 7vh;
+    }
+}

@@ -1,0 +1,124 @@
+.AddRoom{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+
+
+
+.standratInput{
+    height: 10vh;
+    width: 60vw;
+    font-size: 1.6rem;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: none;
+    padding-left: 1%;
+
+}
+.standratInput:focus{
+    outline: none !important;
+}
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 11vh;
+    height: 10vh;
+    border-radius: 5px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+input[type="color"]:focus {
+	outline: none !important;
+}
+option{
+    background-color: rgba(64,224,208,0.2);
+}
+.colorWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 7px;
+    height: fit-content;
+    font-size: 1.6rem;
+    padding: 0px;
+    color: grey;
+    width:60vw;
+    border: none;
+}
+
+
+
+.addRoomWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorSecondRow{
+    display: flex;
+    justify-content: space-around;
+    width: 60vh;
+    border: none
+}
+.pickedColorText{
+    justify-self: flex-start;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.pickedColor{
+    height: 5vh;
+    width: 5vh;
+    margin-left: -10vw;
+    border: black solid 1px;
+    border-radius: 100%;
+    
+    
+}
+.addRoomCreateBtn{
+    font-size: 1.4rem;
+    height: 10vh;
+    width: 10vw;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 1px grey solid;
+    transition: all 0.5s;
+    color: grey;
+}
+
+.addRoomCreateBtn:hover{
+    color: rgb(182, 10, 62);
+    border: 1px solid rgb(182, 10, 62);
+    transform: scale(1.1,1.1);
+}
+.addRoomCreateBtn:focus{
+    outline: none !important;
+}
+select{
+    -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none; 
+}
+
+@media screen and (max-width:700px){
+    .addRoomCreateBtn{
+        font-size: 0.9rem;
+        width: 20vw;
+    }
+}
+
+

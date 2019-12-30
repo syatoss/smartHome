@@ -1,0 +1,14 @@
+.ExistingRooms{
+    border: none;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+    scrollbar-width: hidden;
+    scrollbar-color: green;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}

@@ -1,0 +1,35 @@
+.Room{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: transparent;
+}
+
+.upperPart{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.descriptionText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.preInfo{
+    text-decoration: underline rgb(182, 10, 62);;
+}
+.deviceStates{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width:750px){
+    .description{
+        font-size: 0.9rem;
+    }
+}
