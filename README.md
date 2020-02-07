@@ -19,7 +19,7 @@ Each device can eather be on or off.
 
 ## Link to the website
 
-Open https://syatoss.github.io/smartHome/#/addroom to view it in the browser.
+Open https://syatoss.github.io/smartHome/#/ to view it in the browser.
 
 ## Technologies used
 
